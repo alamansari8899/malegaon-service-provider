@@ -374,7 +374,7 @@ label {
 }
 /* my media */
 
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_basicSection{
     min-height: auto;
     overflow: auto;
@@ -926,7 +926,7 @@ label {
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
   .fs_card_bdyTxt {
-    font-size: 15px;
+    font-size: 14px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
