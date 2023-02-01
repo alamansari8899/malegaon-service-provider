@@ -31,8 +31,7 @@
   font-weight: 900 !important;
 }
 /*borders*/
-
-fsC_none_brdr {
+.fsC_none_brdr {
     border: none !important;
     border-radius: 0px !important;
     border-top-left-radius: 0px !important;
