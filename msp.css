@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700&family=Anton&display=swap");
 html {
   scroll-behavior: smooth;
@@ -159,8 +158,8 @@ label {
   widows: 1;
 }
 .btn[aria-expanded="true"] {
-  color: #fff !important;
-  background-color: #35a597;
+  color: rgb(0, 0, 0) !important;
+  background-color: #f83838!important;
   text-decoration: none;
 }
 
@@ -168,10 +167,13 @@ label {
 
 .fs_blurFilter{backdrop-filter: blur(25px);}
 
-.fs4sideRadius{border-top-left-radius: 40px!important;
-  border-top-right-radius: 40px!important;
-  border-bottom-left-radius: 40px!important;
-  border-bottom-right-radius: 40px!important;}
+.fs4sideRadius{border-top-left-radius: 8px!important;
+  border-top-right-radius: 8px!important;
+  border-bottom-left-radius: 8px!important;
+  border-bottom-right-radius: 8px!important;
+  box-shadow: 0px 6px 7px #00000054;
+  margin: 0 15px;
+}
   .fsTopBothSideRadius{border-top-left-radius: 40px!important;
     border-top-right-radius: 40px!important;
    }
@@ -333,8 +335,13 @@ label {
 }
 .fs_scrollCards {
   min-height: 120px;
-  min-width: 120px;
-  margin-right: 5px;
+    min-width: 120px;
+    margin-right: 5px;
+    border: 3px solid #00000029!important;
+    border-radius: 8px !important;
+    padding: 8px 8px;
+    box-shadow: 1px 4px 3px #00000047;
+    background: #fff300!important;
 }
 .fs_scrollCards02 {
   min-height: 120px;
@@ -353,17 +360,17 @@ label {
 }
 .fs_Horizontalscroll::-webkit-scrollbar {
   
-  height: 14px;
+  height: 11px;
 }
 
 .fs_Horizontalscroll::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 21%);
   border-radius: 10px;
 }
 
 .fs_Horizontalscroll::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow:inset 0 0 14px rgb(43 46 6);
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 18px rgb(0 0 0);
 }
 /* my media */
 
@@ -377,7 +384,12 @@ label {
     border-top-right-radius: 40px!important;
     border-bottom-left-radius: 0px!important;
   }
-  .fs_SThumbImg{min-height: 70px!important;}
+  .fs_SThumbImg{    min-height: 70px!important;
+    width: 50px;
+    background: #fff;
+    border-radius: 8px!important;
+    padding: 8px;
+    margin: 0 auto;}
   .fs_onProductButton01 {
     font-size: 12px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
@@ -602,7 +614,12 @@ label {
 /* ENDS */
 @media (min-width: 1200px) {
   
-  .fs_SThumbImg{min-height: 90px!important;}
+  .fs_SThumbImg{    min-height: 70px!important;
+    width: 50px;
+    background: #fff;
+    border-radius: 8px!important;
+    padding: 8px;
+    margin: 0 auto;}
  
   .line_height{
     line-height: 48px;
@@ -897,13 +914,13 @@ label {
 /*  responsive CARD 'bdyText'.*/
 @media (min-width: 350px) {
   .fs_card_bdyTxt {
-    font-size: 17px;
+    font-size: 14px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
 @media (min-width: 576px) {
   .fs_card_bdyTxt {
-    font-size: 17px;
+    font-size: 15px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
@@ -930,3 +947,11 @@ label {
 /* responseive text ends */
 
 /*alignements on small devices*/
+a {
+  padding: 2px 3px;
+  border-radius: 0px;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  background-color: transparent;
+  
+}
