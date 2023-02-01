@@ -32,14 +32,7 @@
 }
 /*borders*/
 
-.fsC_none_brdr {
-  border: none !important;
-  border-radius: 0px !important;
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important;
-  border-bottom-left-radius: 0px !important;
-  border-bottom-right-radius: 0px !important;
-}
+
 /* TEXT OPACITY */
 .fsTextOpacity7 {
   opacity: 0.7;
