@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700&family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700&family=Baumans:wght@200;400;500;700&family=Anton&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -374,7 +374,8 @@ label {
 }
 /* my media */
 
-@media (min-width: 320px) {
+@media (min-width: 350px) {
+  .imgMspSize{background-size: auto;}
   .fs_basicSection{
     min-height: auto;
     overflow: auto;
@@ -418,10 +419,8 @@ label {
     min-height: 370px;
   }
   .baffinFont{
-    font-size: 62px;
+    font-size: 32px;
     font-family: 'Anton',"Poppins", "Roboto", "Open Sans", sans-serif;
-    /* text-transform: lowercase; */
-    letter-spacing: 0px;
     font-weight: 100!important;
   }
   .randomCardBdy {
@@ -451,7 +450,7 @@ label {
 }
 /* ENDS */
 @media (min-width: 576px) {
-
+  .imgMspSize{background-size: cover;}
 
   .fs_onImgText02{
     font-size: 22px;
@@ -531,7 +530,7 @@ label {
     min-height: 620px;
   }
   .baffinFont{
-    font-size: 99px;
+    font-size: 92px;
     font-family: 'Anton',"Poppins", "Roboto", "Open Sans", sans-serif;
     /* text-transform: lowercase; */
     letter-spacing: 0px;
@@ -580,7 +579,7 @@ label {
     min-height: 620px;
   }
   .baffinFont{
-    font-size: 157px;
+    font-size: 92px;
     font-family: 'Anton',"Poppins", "Roboto", "Open Sans", sans-serif;
     /* text-transform: lowercase; */
     letter-spacing: 0px;
@@ -628,7 +627,7 @@ label {
     min-height: 620px;
   }
   .baffinFont{
-    font-size: 157px;
+    font-size: 92px;
     font-family: 'Anton',"Poppins", "Roboto", "Open Sans", sans-serif;
     /* text-transform: lowercase; */
     letter-spacing: 0px;
@@ -783,7 +782,7 @@ label {
 @media (min-width: 350px) {
   .fs_resp_SL {
     font-size: 35px;
-    font-family: "Open Sans", "Poppins", "Roboto", sans-serif;
+    font-family: "Baumans", "Poppins", "Roboto", sans-serif;
   }
   .fs_resp_SL02{
     font-size: 26px;
@@ -926,7 +925,7 @@ label {
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
   .fs_card_bdyTxt {
-    font-size: 14px;
+    font-size: 15px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
