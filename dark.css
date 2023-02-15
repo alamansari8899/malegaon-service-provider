@@ -23,7 +23,7 @@ body {
     color: darkblue !important;
   }
   .fs_DarkFont {
-    color: #262626 !important;
+    color: #ffeb3b !important
   }
   .fs_DarkThemeFont {
     color: #4d9468 !important;
@@ -37,7 +37,7 @@ body {
     background-color: hsl(0deg 100% 100% /1) !important;
   }
   .fs_LightBgTrans {
-    background-color: hsl(48deg 85% 83% / 85%) !important;
+    background-color: #e91e63 !important;
   }
   .fs_whitBgTrans {
     background-color: hsl(71deg 68% 100% / 41%) !important;
