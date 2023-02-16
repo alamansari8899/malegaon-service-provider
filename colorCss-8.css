@@ -1,5 +1,5 @@
 body {
-    background: #efe6ff;
+    background: #ff6b6b;
   }
   /* LIGHT FONT COLORS */
   .fs_DefaultFont {
@@ -23,7 +23,7 @@ body {
     color: darkblue !important;
   }
   .fs_DarkFont {
-    color: #262626 !important;
+    color: #ffc107 !important;
   }
   .fs_DarkThemeFont {
     color: #4d9468 !important;
@@ -31,13 +31,13 @@ body {
   
   /* LIGHT BG COLORS */
   .fs_DefaultBg {
-    background-color: hsl(0deg 2% 96%) !important;
+    background-color: #fff !important;
   }
   .fs_LightBg {
     background-color: hsl(0deg 100% 100% /1) !important;
   }
   .fs_LightBgTrans {
-    background-color: hsl(48deg 85% 83% / 85%) !important;
+    background-color: hsl(182deg 62% 23%) !important;
   }
   .fs_whitBgTrans {
     background-color: hsl(71deg 68% 100% / 41%) !important;
