@@ -36,9 +36,7 @@ body {
   .fs_LightBg {
     background-color: hsl(0deg 100% 100% /1) !important;
   }
-  .fs_LightBgTrans {
-    background-color:#795548!important;
-  }
+ 
   .fs_whitBgTrans {
     background-color: hsl(71deg 68% 100% / 41%) !important;
   }
